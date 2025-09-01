@@ -22,14 +22,19 @@ O projeto segue as seguintes etapas:
 3.  **Treinamento do Modelo:** Uma instância do modelo de Regressão Logística é criada e treinada com os dados de treino.
 4.  **Avaliação:** O modelo é avaliado usando uma matriz de confusão e um relatório de classificação para verificar sua precisão, recall e F1-score.
 
-📊 Resultados do Modelo
+## 📊 Resultados do Modelo
 
-O modelo de Regressão Logística foi avaliado utilizando métricas de classificação no conjunto de teste, obtendo os seguintes resultados:
+O modelo de Regressão Logística foi avaliado no conjunto de teste, com os seguintes resultados:
 
-Acurácia geral: 97%
-Classe Benigna (B): Precisão = 97%, Recall = 98%, F1-score = 97%
-Classe Maligna (M): Precisão = 96%, Recall = 94%, F1-score = 95%
-Esses resultados demonstram que o modelo possui alto desempenho na tarefa de diagnóstico de câncer de mama, apresentando equilíbrio entre as métricas de precisão e recall para ambas as classes.
+| Classe   | Precisão | Recall | F1-Score |
+|----------|----------|--------|----------|
+| Benigna (B) | 0.97     | 0.98   | 0.97     |
+| Maligna (M) | 0.96     | 0.94   | 0.95     |
+
+- **Acurácia Geral**: **0.97 (97%)**  
+
+Esses resultados mostram que o modelo apresenta **alto desempenho**, conseguindo identificar corretamente tanto os casos benignos quanto malignos.
+
 
 ---
 
