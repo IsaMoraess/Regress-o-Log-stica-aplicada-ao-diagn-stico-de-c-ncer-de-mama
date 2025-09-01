@@ -23,6 +23,7 @@ O projeto segue as seguintes etapas:
 4.  **Avaliação:** O modelo é avaliado usando uma matriz de confusão e um relatório de classificação para verificar sua precisão, recall e F1-score.
 
 📊 Resultados do Modelo
+
 O modelo de Regressão Logística foi avaliado utilizando métricas de classificação no conjunto de teste, obtendo os seguintes resultados:
 
 Acurácia geral: 97%
